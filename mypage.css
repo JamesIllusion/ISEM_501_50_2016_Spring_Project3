@@ -1,0 +1,39 @@
+ul
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:200px;
+font-weight:bold;
+color:#FFFFFF;
+background-color:#bebebe;
+text-align:center;
+padding:4px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+	background-color: #009933;
+}
+
+body,td,th {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}.topic {
+	font-size: 24px;
+	font-family: "Comic Sans MS", cursive;
+	font-style: italic;
+	color: #096;
+}
+
+body {
+	background-image: url(Flag_of_Chicago.png);
