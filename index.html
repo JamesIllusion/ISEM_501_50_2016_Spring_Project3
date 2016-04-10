@@ -16,7 +16,22 @@ body {
 </head>
 
 <body>
-<h1><font face="verdana">Welcome to Chicago !!</font></h1>
+
+
+
+<h1><font face="verdana">
+
+<div id="blink">Welcome to Chicago !!</div>
+<script language="javascript">
+function changeColor(){
+var color="#f00|#0f0|#00f|#880|#808|#088|yellow|green|blue|gray";
+color=color.split("|");
+document.getElementById("blink").style.color=color[parseInt(Math.random() * color.length)];
+}
+setInterval("changeColor()",200);
+</script>
+
+</font></h1>
 <ul>
 <li><a href="index.html">Home</a></li>
 <li><a href="spring.html">Spring</a></li>
